@@ -1,0 +1,53 @@
+/* LandingPage.css */
+.landing-page {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    
+  }
+  
+  
+  .background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('/fst.png');
+    background-size: cover;
+    background-position: center;
+    filter: blur(5px);
+  }
+  
+  .login-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Shadow effect */
+    text-align: center;
+  }
+  
+  .login-box h1 {
+    margin-bottom: 20px;
+  }
+  
+  .login-btn {
+    display: inline-block;
+    margin-right: 20px;
+    padding: 10px 20px;
+    background-color: #9209b8; /* Blue color for button */
+    color: white;
+    text-decoration: none;
+    border-radius: 15px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login-btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  

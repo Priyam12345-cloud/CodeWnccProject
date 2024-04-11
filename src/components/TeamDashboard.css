@@ -1,0 +1,74 @@
+/* TeamDashboard.css */
+.team-dashboard-container {
+    display: flex;
+    background-position: center;
+    justify-content: space-between;
+    background-size: cover;
+    background-image: url('/register.png');
+  }
+
+  .team-dashboard-left,
+  .team-dashboard-right {
+    width: 35%; /* Adjust width as needed */
+    margin-top: 100px;
+    margin-bottom: 10px;
+    margin-inline: 50px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:20px ;
+    -ms-text-kashida-space:var(#9209b8);
+    color: darkblue;
+   height: 530px;
+    padding: 50px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+  }
+  
+  .team-dashboard-right {
+    /* Align the right box to the right side of the container */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+  }
+  
+  .team-dashboard-right button {
+    margin-top: 10px;
+  }
+
+  button{
+    color: rgb(224, 218, 230);
+    background-color:rgb(44, 44, 104);
+    border-radius: 10px;
+  }
+  
+  /* TeamDashboard.css */
+
+/* Define styles for the leaderboard section */
+.leaderboard {
+  width: 30%; /* Adjust width as needed */
+  margin-top: 100px;
+  margin-bottom: 10px;
+  margin-inline: 50px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 20px;
+  color: darkblue;
+  height: 530px;
+  padding: 50px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+/* Align the leaderboard section to the right side of the container */
+.leaderboard {
+  /* Align the leaderboard box to the right side of the container */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Add margin to buttons inside the leaderboard section */
+.leaderboard button {
+  margin-top: 10px;
+}
